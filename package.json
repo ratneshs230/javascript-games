@@ -1,0 +1,13 @@
+{
+  "name": "copilot-chatgpt-bridge",
+  "version": "1.0.0",
+  "description": "Automated bridge between ChatGPT and GitHub Copilot",
+  "main": "bridge/bridge.js",
+  "scripts": {
+    "start": "node bridge/bridge.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "openai": "^3.2.1"
+  }
+}
